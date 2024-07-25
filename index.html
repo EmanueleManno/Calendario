@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Titolo della pagina-->
+    <title>Calendario</title>
+    <!--File CSS del calendario-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.css"
+    />
+    <!--Collegamento col file CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <!--Corpo della pagina-->
+  <body>
+    <!--Calendario-->
+    <div class="calendar"></div>
+    <!--Scripts-->
+    <script src="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.js"></script>
+    <script>
+      new Calendar(document.querySelector(".calendar"));
+    </script>
+  </body>
+</html>
